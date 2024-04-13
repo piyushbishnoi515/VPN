@@ -1,0 +1,535 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1320px;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.logo-text {
+    font-family: "Rubik", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 23.7px;
+    color: #0B132A;
+}
+
+.VPN {
+    font-family: "Rubik", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 23.7px;
+    color: #0B132A;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.gap-10 {
+    gap: 10px;
+}
+
+.align-item {
+    align-items: center;
+}
+
+.n-links {
+    font-family: "Rubik", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.96px;
+    color: #4F5665;
+}
+
+.justify-space {
+    justify-content: space-between;
+}
+
+.Signin {
+    font-family: "Rubik", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18.96px;
+    color: #0B132A;
+}
+
+.Signup-btn {
+    font-family: "Rubik", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18.96px;
+    color: #F53855;
+    border: 1px solid #F53855;
+    width: 150px;
+    height: 45px;
+    border-radius: 50px;
+    background-color: white;
+}
+
+.gap-30 {
+    gap: 30px;
+}
+
+.gap-40 {
+    gap: 40px;
+}
+
+.c-poineter {
+    cursor: pointer;
+}
+
+.Signup-btn:hover {
+    cursor: pointer;
+    background-color: #F53855;
+    color: white;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-left: -12px;
+    margin-right: -12px;
+}
+
+.col-6 {
+    width: 50%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.main-text {
+    font-family: "Rubik", sans-serif;
+    font-size: 44px;
+    font-weight: 500;
+    line-height: 70px;
+    color: #0B132A;
+}
+
+.start-btn {
+    font-family: "Rubik", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 25px;
+    color: white;
+    background-color: #F53838;
+    border: none;
+    width: 250px;
+    height: 60px;
+    border-radius: 10px;
+    box-shadow: 9px 6px 29px 4px #FCCCCC;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+
+.start-btn:hover {
+    background-color: white;
+    color: #F53838;
+    cursor: pointer;
+    border-radius: 10px;
+    border: 1px solid #F53838;
+    transition: all 0.2s;
+
+}
+
+.lasles {
+    font-family: "Rubik", sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 70px;
+    color: #0B132A;
+}
+
+.long-text {
+    font-family: "Rubik", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 30px;
+    color: #4F5665;
+    margin-top: 20px;
+}
+
+.col-4 {
+    width: 33.33%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.col-12 {
+    width: 100%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.three-line {
+    height: 2px;
+    width: 32px;
+    background-color: black;
+    flex-direction: row;
+}
+
+.mt-100 {
+    margin-top: 100px;
+}
+
+.gap-7 {
+    gap: 7px;
+}
+
+.p-20 {
+    padding: 20px;
+}
+
+.f-d-c {
+    flex-direction: column;
+}
+
+.menuicon {
+    display: flex;
+    position: relative;
+    z-index: 10;
+}
+
+.menulist {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    right: -100%;
+    top: 0;
+    transition: all 300ms linear;
+    background-color: white;
+    position: fixed;
+    z-index: 2;
+}
+
+.showlist {
+    right: 0%;
+    background-color: white;
+}
+
+.f-d-c {
+    flex-direction: column;
+}
+
+.circle {
+    border-radius: 50%;
+    background-color: #FFECEC;
+    width: 55px;
+    height: 55px;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.number {
+    font-family: "Rubik", sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 30px;
+    color: #0B132A;
+}
+
+.user {
+    font-family: "Rubik", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #4F5665;
+
+}
+
+.gap-36 {
+    gap: 36px;
+}
+
+.border {
+    border-right: 2px solid #EEEFF2;
+}
+
+.mt-100 {
+    margin-top: 100px;
+}
+
+.box {
+    box-shadow: 10px 41px 25px #F4F4F5;
+    padding: 20px;
+    width: 100%;
+    min-height: 200px;
+    border-radius: 10px;
+}
+
+.provide-text {
+    font-family: "Rubik", sans-serif;
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 50px;
+    color: #0B132A;
+    max-width: 383.41px;
+}
+
+.functions-text {
+    font-family: "Rubik", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #4F5665;
+    max-width: 427.88px;
+    margin-top: 35px;
+}
+.pt-20{
+    padding-top: 20px;
+}
+
+.gift-card {
+    border-radius: 10px;
+    border: 2px solid #DDDDDD;
+    background-color: white;
+}
+
+.gift-card:hover {
+    border-color: #F53838;
+}
+
+.mt-60 {
+    margin-top: 60px;
+}
+
+.free-plane {
+    font-family: "Rubik", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: center;
+    color: #0B132A;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.free {
+    font-family: "Rubik", sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 30px;
+    color: #0B132A;
+    padding-top: 130px;
+    padding-bottom: 20px;
+}
+
+.lite {
+    font-family: "Rubik", sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    color: #4F5665;
+}
+.mb-60{
+    margin-bottom: 60px;
+}
+.dollor-3 {
+padding-top: 100px;
+}
+.dollor-44{
+    padding-top: 0px;
+}
+.dollor-4{
+    padding-top: 33px;
+}
+
+.select-btn {
+    font-family: "Rubik", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18.96px;
+    color: #F53838;
+    width: 177.88px;
+    height: 45px;
+    border-radius: 50px;
+    border: 2px solid #F53838;
+    background-color: white;
+    margin-bottom: 25px;
+}
+
+.select-btn:hover {
+    background-color: #F53838;
+    border: none;
+    color: white;
+}
+
+.choose {
+    font-family: "Rubik", sans-serif;
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 50px;
+    text-align: center;
+    color: #0B132A;
+    padding-top: 80px;
+}
+
+.gap-20 {
+    gap: 20px;
+}
+
+.unlimited {
+    font-family: "Rubik", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #4F5665;
+}
+
+.choose-pera {
+    font-family: "Rubik", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    color: #4F5665;
+    padding-top: 20px;
+}
+
+.bg-blue {
+    background-color: #FBFBFB;
+}
+
+.mt-80 {
+    margin-top: 80px;
+}
+
+.mt24 {
+    margin-top: 24px;
+}
+
+.power {
+    font-family: "Rubik", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #4F5665;
+}
+
+.mt-20 {
+
+    margin-top: 20px;
+}
+
+.mb-140 {
+    margin-bottom: 140px;
+}
+
+.huge-text {
+    font-family: "Rubik", sans-serif;
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 50px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.lasles-text {
+    font-family: "Rubik", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #4F5665;
+    max-width: 555px;
+    display: flex;
+    padding-bottom: 150px;
+    padding-top: 20px;
+}
+
+.lasles-dark {
+    font-family: "Rubik", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: center;
+    color: #4F5665;
+    display: flex;
+}
+
+
+
+
+
+
+@media (min-width:768px) {
+    .col-md-6 {
+        width: 50%;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+}
+
+
+@media (min-width:992px) {
+    .menuicon {
+        display: none;
+    }
+
+    .col-lg-6 {
+        width: 50%;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .menulist {
+        display: flex;
+    }
+
+    .f-d-lg-r {
+        flex-direction: row;
+    }
+
+    .btn-div {
+        display: flex;
+    }
+
+    .f-d-r {
+        flex-direction: row;
+    }
+
+    .menulist {
+        width: fit-content;
+        height: fit-content;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        right: 0%;
+        top: 0;
+        transition: all 300ms linear;
+        background-color: transparent;
+        position: relative;
+        z-index: 2;
+    }
+
+    .col-lg-4 {
+        width: 33.33%;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+}

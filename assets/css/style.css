@@ -330,6 +330,42 @@
     align-items: center;
     justify-content: center;
 }
+.apps:hover{
+    box-shadow: 0px 0px 12px #F53838;
+}
+
+.pb-20 {
+    padding-bottom: 20px;
+}
+
+.pt-30 {
+    padding-top: 30px;
+}
+
+.email {
+    font-family: "Rubik", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #AFB5C0;
+    padding-top: 30px;
+}
+
+.heading {
+    font-family: "Rubik", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    color: #0B132A;
+}
+
+.f-links {
+    font-family: "Rubik", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #4F5665;
+}
 
 .functions-text {
     font-family: "Rubik", sans-serif;

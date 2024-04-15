@@ -56,9 +56,49 @@
     line-height: 18.96px;
     color: #4F5665;
 }
+.slick-list {
+    overflow: visible;
+    padding: 0 20% 0 0;
+    position: relative;
+    z-index: -1;
+}
+.overflow-h{
+    overflow: hidden;
+}
 
-.justify-space {
+.slick-list::after {
+    content: ' ';
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    width: 4000px;
+    right: 100%;
+    background-color: white;
+}
+
+.justify-between {
     justify-content: space-between;
+}
+
+.card-border {
+    border: 2px solid#DDDDDD;
+    border-radius: 10px;
+    padding: 20px;
+gap: 20px;
+
+}
+
+.card-border:hover {
+    border: 2px solid #F53838;
+    box-shadow:  0px 0px 50px #F2F2F3;
+}
+
+.card-pera {
+    font-family: "Rubik", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #0B132A;
 }
 
 .Signin {
@@ -329,10 +369,20 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: all 0.3s;
+}
+
+.rating {
+    font-family: "Rubik", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #0B132A;
 }
 
 .apps:hover {
     box-shadow: 0px 0px 12px #F53838;
+    scale: 1.2;
 }
 
 .earn {
@@ -340,7 +390,7 @@
     font-size: 18px;
     font-weight: 500;
     line-height: 30px;
-color: #0B132A;
+    color: #0B132A;
 }
 
 .pb-20 {
@@ -366,6 +416,7 @@ color: #0B132A;
     font-weight: 500;
     line-height: 30px;
     color: #0B132A;
+    padding-bottom: 20px;
 }
 
 .f-links {
@@ -374,6 +425,7 @@ color: #0B132A;
     font-weight: 400;
     line-height: 30px;
     color: #4F5665;
+    padding-bottom: 10px;
 }
 
 .functions-text {
@@ -574,6 +626,48 @@ color: #0B132A;
     font-weight: 400;
     line-height: 30px;
     color: #4F5665;
+    max-width: 340px;
+}
+
+.name {
+    font-family: "Rubik", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+
+    color: #0B132A;
+}
+
+.trusted {
+    font-family: "Rubik", sans-serif;
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 50px;
+    text-align: center;
+    color: #0B132A;
+    max-width: 447.81px;
+    text-align: center;
+
+}
+
+.trusted-pera {
+    font-family: "Rubik", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    color: #4F5665;
+    max-width: 555px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 60px;
+}
+
+.name-2 {
+    font-family: "Rubik", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #4F5665;
 }
 
 .lasles-f {
@@ -583,6 +677,7 @@ color: #0B132A;
     line-height: 30px;
     color: #4F5665;
     padding-top: 20px;
+
 }
 
 .bg-g {

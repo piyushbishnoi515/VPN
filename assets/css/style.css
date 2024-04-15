@@ -272,7 +272,7 @@
 }
 
 .box {
-    box-shadow: 10px 41px 25px #F4F4F5;
+    box-shadow: 10px 5px 80px #F4F4F5;
     padding: 20px;
     width: 100%;
     min-height: 200px;
@@ -288,6 +288,49 @@
     max-width: 383.41px;
 }
 
+.subscribe {
+    font-family: "Rubik", sans-serif;
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 45px;
+    color: #0B132A;
+    max-width: 371.61px;
+}
+
+.subscribe-pera {
+    font-family: "Rubik", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #4F5665;
+    padding-top: 20px;
+}
+
+.card-box {
+    background-color: white;
+    max-width: 1140px;
+    width: 100%;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 0 10px 10px #FAFAFB;
+}
+
+.bg-gray {
+    background: linear-gradient(to top, #F7F7F7 50%, white 50%);
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.apps {
+    background-color: #F53838;
+    border-radius: 50%;
+    height: 26px;
+    width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .functions-text {
     font-family: "Rubik", sans-serif;
     font-size: 16px;
@@ -297,7 +340,8 @@
     max-width: 427.88px;
     margin-top: 35px;
 }
-.pt-20{
+
+.pt-20 {
     padding-top: 20px;
 }
 
@@ -344,16 +388,20 @@
     text-align: center;
     color: #4F5665;
 }
-.mb-60{
-    margin-bottom: 60px;
+
+.pb-60 {
+    padding-bottom: 60px;
 }
+
 .dollor-3 {
-padding-top: 100px;
+    padding-top: 100px;
 }
-.dollor-44{
+
+.dollor-44 {
     padding-top: 0px;
 }
-.dollor-4{
+
+.dollor-4 {
     padding-top: 33px;
 }
 
@@ -467,6 +515,33 @@ padding-top: 100px;
     text-align: center;
     color: #4F5665;
     display: flex;
+}
+
+.col-2 {
+    width: 16.66%;
+    padding-left: 2px;
+    padding-right: 12px;
+}
+
+.footer-pera {
+    font-family: "Rubik", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #4F5665;
+}
+
+.lasles-f {
+    font-family: "Rubik", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 30px;
+    color: #4F5665;
+    padding-top: 20px;
+}
+
+.bg-g {
+    background-color: #F8F8F8;
 }
 
 

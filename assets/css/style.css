@@ -259,6 +259,10 @@
     margin-top: 50px;
     margin-bottom: 50px;
 
+
+}
+.f-wrap{
+    flex-wrap:wrap;
 }
 
 .start-btn:hover {

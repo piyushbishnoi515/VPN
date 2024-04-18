@@ -92,17 +92,21 @@
 .errow {
     border-radius: 50%;
     border: 2px solid #F53838;
-    width: 60px;
-    height: 60px;
+    width: 32px;
+    height: 32px;
     background-color: white;
+    z-index: 2;
+    cursor: pointer;
 }
 
 .next {
     border-radius: 50%;
     border: 2px solid #F53838;
-    width: 60px;
-    height: 60px;
+    width: 32px;
+    height: 32px;
     background-color: white;
+    z-index: 2;
+    cursor: pointer;
 }
 
 .next:hover {
@@ -138,30 +142,44 @@
 
 .card-border:hover {
     border: 2px solid #F53838;
-
 }
 
-.slick-dots {
-    text-align: left;
+.slick-dots li.slick-active button:before {
+    background-color: #F53838;
+    width: 45px;
+    height: 15px;
+    border-radius: 30px;
+    opacity: 100%;
+    z-index: 2;
+}
+
+.slick-dots li button:before,
+.slick-dots li button {
+    content: '';
+    width: 15px;
+    height: 15px;
+    background-color: #DDE0E4;
+    border-radius: 50%;
 }
 
 .slick-dots {
     position: absolute;
-    width: 15px;
-    height: 15px;
-    display: flex;
-
-    align-items: center;
-
-
+    bottom: -80px;
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin-left: 30px;
+    list-style: none;
+    text-align: left;
 }
 
 .card-pera {
     font-family: "Rubik", sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 30px;
     color: #0B132A;
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: 400;
+
 }
 
 .Signin {
@@ -223,6 +241,7 @@
     font-weight: 500;
     line-height: 70px;
     color: #0B132A;
+    max-width: 555px;
 }
 
 .start-btn {
@@ -267,6 +286,7 @@
     line-height: 30px;
     color: #4F5665;
     margin-top: 20px;
+    max-width: 555px;
 }
 
 .col-4 {
@@ -366,9 +386,7 @@
     gap: 36px;
 }
 
-.border {
-    border-right: 2px solid #EEEFF2;
-}
+
 
 .mt-100 {
     margin-top: 100px;
@@ -389,6 +407,7 @@
     line-height: 50px;
     color: #0B132A;
     max-width: 383.41px;
+    margin-top: 50px;
 }
 
 .subscribe {
@@ -553,16 +572,29 @@
     padding-bottom: 60px;
 }
 
+.mb-60 {
+    margin-bottom: 60px;
+}
+
+.mt-30 {
+    margin-top: 30px;
+}
+
 .dollor-3 {
     padding-top: 100px;
 }
 
+.pt-10 {
+    padding-top: 10px
+}
+
 .dollor-44 {
-    padding-top: 0px;
+    padding-top: 27px;
 }
 
 .dollor-4 {
     padding-top: 33px;
+
 }
 
 .select-btn {
@@ -605,6 +637,7 @@
     font-weight: 400;
     line-height: 30px;
     color: #4F5665;
+    padding-top: 10px;
 }
 
 .choose-pera {
@@ -655,6 +688,10 @@
     margin-top: 100px;
 }
 
+.text-align {
+    text-align: center;
+}
+
 .lasles-text {
     font-family: "Rubik", sans-serif;
     font-size: 16px;
@@ -662,9 +699,14 @@
     line-height: 30px;
     color: #4F5665;
     max-width: 555px;
-    display: flex;
     padding-bottom: 150px;
     padding-top: 20px;
+    max-width: 555px;
+    text-align: center;
+}
+
+.ml-29 {
+    margin-left: 29px;
 }
 
 .lasles-dark {
@@ -674,7 +716,6 @@
     line-height: 30px;
     text-align: center;
     color: #4F5665;
-    display: flex;
 }
 
 .col-2 {
@@ -694,9 +735,8 @@
 
 .name {
     font-family: "Rubik", sans-serif;
-    font-size: 18px;
+    font-size: 12px;
     font-weight: 500;
-
     color: #0B132A;
 }
 
@@ -727,9 +767,9 @@
 
 .name-2 {
     font-family: "Rubik", sans-serif;
-    font-size: 14px;
+    font-size: 10px;
     font-weight: 400;
-    line-height: 30px;
+    line-height: 15px;
     color: #4F5665;
 }
 
@@ -743,20 +783,106 @@
 
 }
 
+.p-30 {
+    padding: 30px;
+}
+
+.menu {
+    position: fixed;
+    z-index: 10;
+    left: 0%;
+    top: 0%;
+    width: 100%;
+    background-color: white;
+
+
+}
+
 .bg-g {
     background-color: #F8F8F8;
 }
 
+.slick-track {
+    display: flex !important;
+}
+
+.slick-slide {
+    height: inherit !important;
+    display: flex !important;
+}
+
+.slick-slide>div {
+    display: flex;
+}
+slick-dots li button:before,
+.slick-dots li button {
+    content: '';
+    width: 15px;
+    height: 15px;
+    background-color: #DDE0E4;
+    border-radius: 50%;
+}
+.mt42{
+    margin-top: 42px;
+}
+
+@media (min-width:576px) {
+    .col-sm-6 {
+        width: 50%;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+        slick-dots li button:before,
+        .slick-dots li button {
+            content: '';
+            width: 7px;
+            height: 7px;
+            background-color: #DDE0E4;
+            border-radius: 50%;
+        }
+
+    .errow {
+        width: 60px;
+        height: 60px;
+    }
+    .next{
+        width: 60px;
+        height: 60px;
+    }
+
+    .name-2 {
+        font-size: 18px;
+    }
+
+    .name {
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 30px;
+    }
+
+    .card-pera {
+        font-size: 16px;
+        line-height: 30px;
+    }
 
 
-
-
+}
 
 @media (min-width:768px) {
     .col-md-6 {
         width: 50%;
         padding-left: 12px;
         padding-right: 12px;
+    }
+
+    .col-md-4 {
+        width: 33.33%;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .border {
+        border-right: 2px solid #EEEFF2;
     }
 
 }
@@ -789,6 +915,10 @@
         flex-direction: row;
     }
 
+    .Signin {
+        padding-left: 26px;
+    }
+
     .menulist {
         width: fit-content;
         height: fit-content;
@@ -806,6 +936,18 @@
 
     .col-lg-4 {
         width: 33.33%;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .col-lg-2 {
+        width: 16.66%;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .col-lg-6 {
+        width: 50%;
         padding-left: 12px;
         padding-right: 12px;
     }

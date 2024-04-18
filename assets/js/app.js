@@ -10,10 +10,13 @@ menuicon.addEventListener("click", function () {
 $('.slider').slick({
     dots: true,
     infinite: true,
-    speed:300,
+    speed: 300,
     autoplay: true,
     slidesToShow: 2,
     slidesToScroll: 1,
+    prevArrow: ".errow",
+    nextArrow: ".next",
+
     responsive: [
         {
             breakpoint: 1024,

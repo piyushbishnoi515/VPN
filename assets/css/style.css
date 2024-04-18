@@ -56,13 +56,14 @@
     line-height: 18.96px;
     color: #4F5665;
 }
+
 .slick-list {
     overflow: visible;
     padding: 0 20% 0 0;
     position: relative;
-    z-index: -1;
 }
-.overflow-h{
+
+.overflow-h {
     overflow: hidden;
 }
 
@@ -84,13 +85,75 @@
     border: 2px solid#DDDDDD;
     border-radius: 10px;
     padding: 20px;
-gap: 20px;
+    gap: 20px;
 
+}
+
+.errow {
+    border-radius: 50%;
+    border: 2px solid #F53838;
+    width: 60px;
+    height: 60px;
+    background-color: white;
+}
+
+.next {
+    border-radius: 50%;
+    border: 2px solid #F53838;
+    width: 60px;
+    height: 60px;
+    background-color: white;
+}
+
+.next:hover {
+    background-color: #F53838;
+}
+
+.errow:hover {
+    background-color: #F53838;
+}
+
+.next:hover svg path {
+    fill: white;
+}
+
+.justify-end {
+    justify-content: end;
+}
+
+.errow:hover svg path {
+    fill: white;
+}
+
+.slick-slider {
+    margin: 0 -15px;
+}
+
+.slick-slide {
+    padding: 10px;
+    text-align: center;
+    margin-right: 20px;
+    margin-left: 20px;
 }
 
 .card-border:hover {
     border: 2px solid #F53838;
-    box-shadow:  0px 0px 50px #F2F2F3;
+
+}
+
+.slick-dots {
+    text-align: left;
+}
+
+.slick-dots {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    display: flex;
+
+    align-items: center;
+
+
 }
 
 .card-pera {

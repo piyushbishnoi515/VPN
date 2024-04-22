@@ -355,11 +355,6 @@
     right: 0%;
     background-color: white;
 }
-
-.f-d-c {
-    flex-direction: column;
-}
-
 .circle {
     border-radius: 50%;
     background-color: #FFECEC;
@@ -803,9 +798,15 @@
 
 
 }
+.pl-20{
+    padding-left: 20px;
+}
 
 .bg-g {
     background-color: #F8F8F8;
+}
+link{
+    padding-bottom: 0px;
 }
 
 .slick-track {

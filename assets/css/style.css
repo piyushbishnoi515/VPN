@@ -153,14 +153,14 @@
     z-index: 2;
 }
 
-.slick-dots li button:before,
+/* .slick-dots li button:before,
 .slick-dots li button {
     content: '';
     width: 15px;
     height: 15px;
     background-color: #DDE0E4;
     border-radius: 50%;
-}
+} */
 
 .slick-dots {
     position: absolute;
@@ -260,8 +260,9 @@
 
 
 }
-.f-wrap{
-    flex-wrap:wrap;
+
+.f-wrap {
+    flex-wrap: wrap;
 }
 
 .start-btn:hover {
@@ -310,7 +311,8 @@
     background-color: black;
     flex-direction: row;
 }
-.mt-130{
+
+.mt-130 {
     margin-top: 130px;
 }
 
@@ -355,6 +357,7 @@
     right: 0%;
     background-color: white;
 }
+
 .circle {
     border-radius: 50%;
     background-color: #FFECEC;
@@ -453,6 +456,8 @@
     justify-content: center;
     transition: all 0.3s;
 }
+
+
 
 .rating {
     font-family: "Rubik", sans-serif;
@@ -639,10 +644,12 @@
     color: #4F5665;
     padding-top: 10px;
 }
-.background{
-    background: linear-gradient( to bottom , #FAFAFA, #FDFDFD) ;
+
+.background {
+    background: linear-gradient(to bottom, #FAFAFA, #FDFDFD);
 }
-.pb-90{
+
+.pb-90 {
     padding-bottom: 90px;
 }
 
@@ -658,7 +665,8 @@
     display: flex;
     justify-content: center;
 }
-.mt-10{
+
+.mt-10 {
     margin-top: 10px;
 }
 
@@ -698,6 +706,7 @@
     line-height: 50px;
     text-align: center;
     margin-top: 100px;
+    max-width: 383.41px;
 }
 
 .text-align {
@@ -715,6 +724,7 @@
     padding-top: 20px;
     max-width: 555px;
     text-align: center;
+    max-width: 555px;
 }
 
 .ml-29 {
@@ -809,14 +819,16 @@
 
 
 }
-.pl-20{
+
+.pl-20 {
     padding-left: 20px;
 }
 
 .bg-g {
     background-color: #F8F8F8;
 }
-link{
+
+link {
     padding-bottom: 0px;
 }
 
@@ -832,15 +844,17 @@ link{
 .slick-slide>div {
     display: flex;
 }
-slick-dots li button:before,
-.slick-dots li button {
+
+.slick-dots li button:before,
+.slick-dots li button,.slick-dots li button {
     content: '';
     width: 15px;
     height: 15px;
     background-color: #DDE0E4;
     border-radius: 50%;
 }
-.mt42{
+
+.mt42 {
     margin-top: 42px;
 }
 
@@ -850,20 +864,22 @@ slick-dots li button:before,
         padding-left: 12px;
         padding-right: 12px;
     }
-        slick-dots li button:before,
-        .slick-dots li button {
-            content: '';
-            width: 7px;
-            height: 7px;
-            background-color: #DDE0E4;
-            border-radius: 50%;
-        }
+
+    /* slick-dots li button:before,
+    .slick-dots li button {
+        content: '';
+        width: 7px;
+        height: 7px;
+        background-color: #DDE0E4;
+        border-radius: 50%;
+    } */
 
     .errow {
         width: 60px;
         height: 60px;
     }
-    .next{
+
+    .next {
         width: 60px;
         height: 60px;
     }

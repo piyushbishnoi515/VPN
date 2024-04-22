@@ -533,6 +533,10 @@
     border-radius: 10px;
     border: 2px solid #DDDDDD;
     background-color: white;
+    /* margin-left: 13px; */
+    /* margin-right: 13px; */
+    max-width: 330px;
+    width: 100%;
 }
 
 .gift-card:hover {
@@ -846,7 +850,8 @@ link {
 }
 
 .slick-dots li button:before,
-.slick-dots li button,.slick-dots li button {
+.slick-dots li button,
+.slick-dots li button {
     content: '';
     width: 15px;
     height: 15px;
@@ -857,6 +862,7 @@ link {
 .mt42 {
     margin-top: 42px;
 }
+
 
 @media (min-width:576px) {
     .col-sm-6 {

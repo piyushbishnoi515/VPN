@@ -431,7 +431,6 @@
 
 .card-box {
     background-color: white;
-    max-width: 1140px;
     width: 100%;
     border-radius: 10px;
     padding: 30px;
@@ -499,7 +498,7 @@
     font-weight: 500;
     line-height: 30px;
     color: #0B132A;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
 }
 
 .f-links {
@@ -640,6 +639,12 @@
     color: #4F5665;
     padding-top: 10px;
 }
+.background{
+    background: linear-gradient( to bottom , #FAFAFA, #FDFDFD) ;
+}
+.pb-90{
+    padding-bottom: 90px;
+}
 
 .choose-pera {
     font-family: "Rubik", sans-serif;
@@ -649,6 +654,12 @@
     text-align: center;
     color: #4F5665;
     padding-top: 20px;
+    max-width: 555px;
+    display: flex;
+    justify-content: center;
+}
+.mt-10{
+    margin-top: 10px;
 }
 
 .bg-blue {
